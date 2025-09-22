@@ -1,2 +1,33 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependências
 node_modules/
+
+# Build
+dist/
+build/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Ambiente
 .env
+.env.local
+.env.*.local
+
+# Cache
+.cache/
+.next/
+*.log
+
+# Testes
+coverage/
