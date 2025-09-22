@@ -1,0 +1,43 @@
+/* Slick Carousel CSS for react-slick */
+@import "slick-carousel@1.8.1/slick/slick.css";
+@import "slick-carousel@1.8.1/slick/slick-theme.css";
+
+/* Custom dots styling */
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  color: white;
+  opacity: 0.5;
+  font-size: 8px;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white;
+}
+
+/* Remove default arrows */
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+/* Custom mobile optimizations */
+.slick-slide {
+  padding: 0 2px;
+}
+
+.slick-track {
+  display: flex;
+  align-items: stretch;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
+
+.slick-slide > div > div {
+  height: 100%;
+}

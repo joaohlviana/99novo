@@ -1,0 +1,4 @@
+ARQUIVO REMOVIDO DURANTE LIMPEZA DE LEGADOS
+Este arquivo deprecated foi limpo
+Use /routes/AppRouter.tsx - Sistema React Router funcional
+Log completo: /CLEANUP_LOG.md

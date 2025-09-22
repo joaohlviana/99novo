@@ -1,0 +1,1 @@
+# Moved from /components/HomePage.tsx
